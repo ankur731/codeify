@@ -1,0 +1,23 @@
+.coverBg{
+    /* background-image: url("../../images/cover-bg.jpg"); */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("../../images/cover-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.coverBg>h1{
+    font-size: 58px;
+    
+}
+.coverBg>h5{
+    margin-top: 15px;
+    font-size: 23px;
+    width: 80%;
+    text-align: center;
+}

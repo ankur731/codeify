@@ -1,0 +1,17 @@
+.what-content{
+    padding: 20px 0;
+}
+.what>h1{
+    color: #1e266d;
+    font-weight: bold;
+}
+.what-content>h2{
+    font-size: 28px;
+    color: #1e266d;
+}
+.what-content>h5{
+    margin: 20px 0;
+    color: #404040; 
+    font-size: 21px;
+    font-weight: 400;
+}

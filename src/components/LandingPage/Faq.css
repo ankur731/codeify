@@ -1,0 +1,15 @@
+.faq-row{
+    padding: 40px 0  80px 0;
+}
+
+.faq-left>h1{
+    width: 90%;
+    font-size: 60px;
+}
+.ask-btn{
+    margin-top: 25px;
+    padding: 15px 45px;
+    border: 1px solid #686868;
+    font-size: 21px;
+    border-radius: 8px;
+}

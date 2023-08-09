@@ -1,0 +1,15 @@
+.services>h2{
+    font-size: 32px;
+    color: #1e266d;
+    font-weight: bold;
+}
+.services>h5{
+    margin: 20px 0;
+    color: #404040; 
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.services li{
+    font-size: 21px;
+}

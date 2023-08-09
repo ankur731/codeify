@@ -1,0 +1,108 @@
+.whyDiv{
+    margin-top: 40px;
+    padding: 80px 20px;
+    border-radius: 25px;
+    /* text-align: center; */
+    /* background-color: aliceblue; */
+    background-image: radial-gradient(#f1f3fa, #fff, #f1f3fa);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whyDiv .whyContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 15px; */
+    /* width: 80%; */
+}
+.whyDiv .whyContent>h1{
+    text-align: center;
+    color: #212529;
+    font-size: 62px;
+}
+.whyDiv>.whyContent>h5{
+    margin-top: 15px;
+    text-align: center;
+    width: 80%;
+    color: #4c4c4c;
+    font-size: 21px;
+}
+@media (max-width:1200px) {
+    .whyDiv .whyContent>h1{
+        font-size: 48px;
+    }
+}
+@media (max-width:920px) {
+    .whyDiv{
+        padding: 60px 10px;
+    }
+    .whyDiv .whyContent>h1{
+        font-size: 42px;
+    }
+}
+@media (max-width:720px) {
+    .whyDiv .whyContent>h1{
+        font-size: 36px;
+    }
+    .whyDiv>.whyContent>h5{
+        font-size: 18px;
+    }
+}
+@media (max-width:576px) {
+    .whyDiv .whyContent>h1{
+        font-size: 30px;
+    }
+    .whyDiv>.whyContent>h5{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}
+
+
+.whyCard{
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    /* gap: 8px 0; */
+    width: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    /* border: 1px solid #f6f6f6; */
+    border: none;
+}
+.whyCard>.whyCard-img{
+    width: 45%;
+    /* min-width: 170px; */
+}
+
+.whyCard-content>h2{
+    font-size: 26px;
+    text-align: center;
+}
+.whyCard-content>h5{
+    font-size: 20px;
+    text-align: center;
+    color: #474747;
+}
+@media (max-width:920px) {
+    .whyCard-content>h2{
+        font-size: 24px;
+    }
+    .whyCard-content>h5{
+        font-size: 18px;
+    }
+}
+@media (max-width:576px) {
+    .whyCard-content>h2{
+        font-size: 28px;
+    }
+    .whyCard-content>h5{
+        font-size: 18px;
+    }
+}
+
